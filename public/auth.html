@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Factory Investigator — Sign in</title>
+</head>
+<body>
+  <h1>Factory AI Investigator</h1>
+  <button id="login">Sign in with Google</button>
+  <button id="logout">Sign out</button>
+  <pre id="result">Not signed in</pre>
+
+  <script src="/__/firebase/8.10.1/firebase-app.js"></script>
+  <script src="/__/firebase/8.10.1/firebase-auth.js"></script>
+  <script src="/__/firebase/init.js"></script>
+  <script>
+    const result = document.getElementById("result");
+    const auth = firebase.auth();
+
+    document.getElementById("login").onclick = async () => {
+      try {
+        await auth.signInWithPopup(new firebase.auth.GoogleAuthProvider());
+      } catch (error) {
+        result.textContent = `${error.code}: ${error.message}`;
+      }
+    };
+
+    document.getElementById("logout").onclick = () => auth.signOut();
+
+    auth.onAuthStateChanged(user => {
+      result.textContent = user
+        ? `Email: ${user.email}\nUID: ${user.uid}`
+        : "Not signed in";
+    });
+  </script>
+</body>
+</html>

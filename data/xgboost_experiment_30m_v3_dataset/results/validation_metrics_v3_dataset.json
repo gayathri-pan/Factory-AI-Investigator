@@ -1,0 +1,20 @@
+{
+  "threshold": 0.2548780143260956,
+  "precision": 0.8660130718954249,
+  "recall": 0.8333333333333334,
+  "f1": 0.8493589743589743,
+  "average_precision": 0.8742331651795233,
+  "true_negatives": 78456,
+  "false_positives": 41,
+  "false_negatives": 53,
+  "true_positives": 265,
+  "flagged_windows": 306,
+  "best_iteration": 579,
+  "validation_windows": 78815,
+  "training_windows": 367895,
+  "training_positive_count": 2758,
+  "training_negative_count": 365137,
+  "scale_pos_weight": 132.391950688905,
+  "input_feature_count": 96,
+  "threshold_selection_method": "Maximum F1 on validation precision-recall curve"
+}

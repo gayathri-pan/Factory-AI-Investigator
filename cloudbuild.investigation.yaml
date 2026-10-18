@@ -1,0 +1,12 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - --file
+      - Dockerfile.investigation
+      - --tag
+      - asia-south1-docker.pkg.dev/$PROJECT_ID/factory-ai-investigator/investigation-worker:v4
+      - .
+images:
+  - asia-south1-docker.pkg.dev/$PROJECT_ID/factory-ai-investigator/investigation-worker:v4
+timeout: 1800s

@@ -1,0 +1,8 @@
+**
+!.gcloudignore
+!Dockerfile
+!requirements-inference.txt
+!src/
+!src/anomaly_detection/
+!src/anomaly_detection/__init__.py
+!src/anomaly_detection/run_cloud_batch_inference.py

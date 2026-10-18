@@ -1,0 +1,8 @@
+{
+  "threshold": 0.2548780143260956,
+  "selection_partition": "validation",
+  "selection_metric": "F1",
+  "model": "xgboost_binary_v3_dataset",
+  "positive_class": 1,
+  "negative_class": 0
+}

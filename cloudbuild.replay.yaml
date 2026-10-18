@@ -1,0 +1,12 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -f
+      - Dockerfile.replay
+      - -t
+      - asia-south1-docker.pkg.dev/$PROJECT_ID/factory-ai-investigator/replay-worker:v1
+      - .
+images:
+  - asia-south1-docker.pkg.dev/$PROJECT_ID/factory-ai-investigator/replay-worker:v1
+timeout: 1200s

@@ -1,0 +1,7 @@
+**
+!.gcloudignore-dashboard
+!Dockerfile.dashboard
+!requirements-dashboard.txt
+!cloudbuild.dashboard.yaml
+!src/
+!src/dashboard_api.py

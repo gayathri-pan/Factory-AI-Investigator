@@ -1,0 +1,18 @@
+{
+  "partition": "test",
+  "threshold": 0.2548780143260956,
+  "threshold_source": "validation",
+  "test_windows": 78815,
+  "positive_windows": 367,
+  "negative_windows": 78448,
+  "precision": 0.8761061946902655,
+  "recall": 0.8092643051771117,
+  "f1": 0.8413597733711048,
+  "average_precision": 0.8654464760235843,
+  "balanced_accuracy": 0.9043644593395246,
+  "true_negatives": 78406,
+  "false_positives": 42,
+  "false_negatives": 70,
+  "true_positives": 297,
+  "flagged_windows": 339
+}

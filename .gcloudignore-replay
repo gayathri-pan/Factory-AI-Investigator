@@ -1,0 +1,12 @@
+**
+!.gcloudignore-replay
+!Dockerfile.replay
+!requirements-replay.txt
+!cloudbuild.replay.yaml
+!scripts/
+!scripts/run_cloud_replay.py
+!scripts/replay_to_firestore.py
+!src/
+!src/anomaly_detection/
+!src/anomaly_detection/__init__.py
+!src/anomaly_detection/xgboost_preprocess_30m_v3_dataset.py

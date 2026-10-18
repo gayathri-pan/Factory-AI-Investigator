@@ -1,0 +1,8 @@
+backups/
+kaggle_yearly_bundle_20261011/
+factory_ai_yearly_bundle.zip
+data/**/processed/
+data/qdrant/
+artifacts/
+reports/
+task-test.jsongit add .gitignore .python-version pyproject.toml uv.lock README.md

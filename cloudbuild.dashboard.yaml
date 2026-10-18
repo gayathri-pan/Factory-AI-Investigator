@@ -1,0 +1,11 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -f
+      - Dockerfile.dashboard
+      - -t
+      - asia-south1-docker.pkg.dev/$PROJECT_ID/factory-ai-investigator/dashboard-api:v5
+      - .
+images:
+  - asia-south1-docker.pkg.dev/$PROJECT_ID/factory-ai-investigator/dashboard-api:v5
