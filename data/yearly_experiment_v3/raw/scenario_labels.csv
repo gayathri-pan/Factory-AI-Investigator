@@ -1,0 +1,386 @@
+scenario_id,machine_id,start_time,end_time,scenario_type,expected_condition,severity,description,fault_pattern,sensor_feature,planned_partition
+SCN-Y001,M-103,2026-02-19 17:28:00,2026-02-19 22:34:00,gradual_fault,Motor overheating,critical,Synthetic gradual temperature increase and speed reduction.,overheating,,train
+SCN-Y002,M-103,2026-05-18 23:23:00,2026-05-19 02:32:00,gradual_fault,Motor overheating,critical,Synthetic gradual temperature increase and speed reduction.,overheating,,train
+SCN-Y003,M-105,2026-05-02 09:45:00,2026-05-02 13:50:00,gradual_fault,Actuator wear,high,Synthetic actuator degradation with irregular speed.,actuator_wear,,train
+SCN-Y004,M-103,2026-08-11 18:23:00,2026-08-11 19:54:00,gradual_fault,Bearing wear,high,Synthetic gradual bearing degradation.,bearing_wear,,train
+SCN-Y005,M-101,2026-05-31 20:25:00,2026-05-31 23:59:00,gradual_fault,Bearing wear,critical,Synthetic gradual bearing degradation.,bearing_wear,,train
+SCN-Y006,M-105,2026-04-09 07:46:00,2026-04-09 09:43:00,gradual_fault,Bearing wear,critical,Synthetic gradual bearing degradation.,bearing_wear,,train
+SCN-Y007,M-104,2026-05-06 15:29:00,2026-05-06 18:45:00,gradual_fault,Motor overheating,medium,Synthetic gradual temperature increase and speed reduction.,overheating,,train
+SCN-Y008,M-105,2026-07-23 13:19:00,2026-07-23 15:38:00,gradual_fault,Bearing wear,medium,Synthetic gradual bearing degradation.,bearing_wear,,train
+SCN-Y009,M-102,2026-07-12 01:36:00,2026-07-12 03:35:00,gradual_fault,Bearing wear,medium,Synthetic gradual bearing degradation.,bearing_wear,,train
+SCN-Y010,M-104,2026-05-17 03:01:00,2026-05-17 08:43:00,gradual_fault,Motor overheating,high,Synthetic gradual temperature increase and speed reduction.,overheating,,train
+SCN-Y011,M-104,2026-01-30 07:55:00,2026-01-30 12:00:00,gradual_fault,Motor overheating,critical,Synthetic gradual temperature increase and speed reduction.,overheating,,train
+SCN-Y012,M-104,2026-02-02 05:55:00,2026-02-02 07:52:00,intermittent_fault,Pressure fluctuation,high,Synthetic pressure fluctuations.,pressure_fluctuation,,train
+SCN-Y013,M-105,2026-02-03 11:49:00,2026-02-03 14:11:00,intermittent_fault,Intermittent vibration,high,Synthetic intermittent vibration.,intermittent_vibration,,train
+SCN-Y014,M-104,2026-05-31 09:30:00,2026-05-31 12:21:00,intermittent_fault,Intermittent vibration,medium,Synthetic intermittent vibration.,intermittent_vibration,,train
+SCN-Y015,M-101,2026-03-01 09:43:00,2026-03-01 12:11:00,intermittent_fault,Rotational speed instability,critical,Synthetic rotational speed instability.,rpm_instability,,train
+SCN-Y016,M-103,2026-03-12 23:54:00,2026-03-13 02:50:00,intermittent_fault,Intermittent vibration,medium,Synthetic intermittent vibration.,intermittent_vibration,,train
+SCN-Y017,M-103,2026-05-05 23:35:00,2026-05-06 00:51:00,intermittent_fault,Intermittent vibration,critical,Synthetic intermittent vibration.,intermittent_vibration,,train
+SCN-Y018,M-105,2026-05-28 08:17:00,2026-05-28 09:35:00,intermittent_fault,Rotational speed instability,high,Synthetic rotational speed instability.,rpm_instability,,train
+SCN-Y019,M-104,2026-02-22 10:35:00,2026-02-22 10:42:00,sensor_anomaly,temperature stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,train
+SCN-Y020,M-104,2026-06-10 08:45:00,2026-06-10 08:54:00,sensor_anomaly,temperature stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,train
+SCN-Y021,M-105,2026-06-01 22:47:00,2026-06-01 22:53:00,sensor_anomaly,rpm drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,train
+SCN-Y022,M-104,2026-05-04 18:40:00,2026-05-04 18:40:00,sensor_anomaly,rpm drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,train
+SCN-Y023,M-104,2026-04-30 15:48:00,2026-04-30 15:49:00,sensor_anomaly,temperature drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,train
+SCN-Y024,M-105,2026-06-06 22:09:00,2026-06-06 22:10:00,sensor_anomaly,rpm drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,train
+SCN-Y025,M-101,2026-07-21 01:16:00,2026-07-21 01:18:00,sensor_anomaly,pressure drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,train
+SCN-Y026,M-101,2026-01-24 00:25:00,2026-01-24 00:33:00,sensor_anomaly,pressure stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,train
+SCN-Y027,M-105,2026-04-02 05:00:00,2026-04-02 05:02:00,sensor_anomaly,vibration spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,train
+SCN-Y028,M-103,2026-05-15 06:10:00,2026-05-15 06:11:00,sensor_anomaly,temperature spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,train
+SCN-Y029,M-102,2026-06-01 16:24:00,2026-06-01 16:32:00,sensor_anomaly,rpm stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,train
+SCN-Y030,M-102,2026-06-30 15:19:00,2026-06-30 15:21:00,sensor_anomaly,rpm drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,train
+SCN-Y031,M-102,2026-01-18 02:36:00,2026-01-18 02:45:00,sensor_anomaly,pressure drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,train
+SCN-Y032,M-102,2026-04-28 07:29:00,2026-04-28 07:30:00,sensor_anomaly,vibration spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,train
+SCN-Y033,M-101,2026-01-14 16:12:00,2026-01-14 16:17:00,sensor_anomaly,vibration drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,train
+SCN-Y034,M-102,2026-03-10 22:27:00,2026-03-10 22:36:00,sensor_anomaly,power_consumption stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,train
+SCN-Y035,M-102,2026-04-10 05:52:00,2026-04-10 05:53:00,sensor_anomaly,pressure drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,train
+SCN-Y036,M-103,2026-06-07 05:23:00,2026-06-07 05:27:00,sensor_anomaly,power_consumption stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,train
+SCN-Y037,M-102,2026-01-24 14:45:00,2026-01-24 14:47:00,sensor_anomaly,vibration spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,train
+SCN-Y038,M-103,2026-08-25 15:59:00,2026-08-25 16:00:00,sensor_anomaly,pressure drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,train
+SCN-Y039,M-103,2026-03-21 00:16:00,2026-03-21 00:21:00,sensor_anomaly,rpm drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,train
+SCN-Y040,M-104,2026-02-18 19:02:00,2026-02-18 19:07:00,sensor_anomaly,power_consumption stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,train
+SCN-Y041,M-101,2026-06-25 03:59:00,2026-06-25 04:08:00,sensor_anomaly,rpm drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,train
+SCN-Y042,M-101,2026-07-15 17:20:00,2026-07-15 17:26:00,sensor_anomaly,vibration drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,train
+SCN-Y043,M-105,2026-04-10 05:51:00,2026-04-10 05:52:00,sensor_anomaly,vibration spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,train
+SCN-Y044,M-105,2026-08-23 21:12:00,2026-08-23 21:14:00,sensor_anomaly,rpm spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,train
+SCN-Y045,M-103,2026-04-22 00:09:00,2026-04-22 00:13:00,sensor_anomaly,pressure stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,train
+SCN-Y046,M-105,2026-01-30 13:08:00,2026-01-30 13:10:00,sensor_anomaly,power_consumption spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,train
+SCN-Y047,M-101,2026-04-09 05:28:00,2026-04-09 05:30:00,sensor_anomaly,power_consumption drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,train
+SCN-Y048,M-105,2026-07-19 17:08:00,2026-07-19 17:09:00,sensor_anomaly,power_consumption drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,train
+SCN-Y049,M-101,2026-05-10 21:20:00,2026-05-10 21:26:00,sensor_anomaly,pressure stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,train
+SCN-Y050,M-105,2026-07-21 09:23:00,2026-07-21 09:30:00,sensor_anomaly,power_consumption stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,train
+SCN-Y051,M-103,2026-01-27 08:57:00,2026-01-27 09:02:00,sensor_anomaly,power_consumption drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,train
+SCN-Y052,M-105,2026-03-15 22:03:00,2026-03-15 22:05:00,sensor_anomaly,power_consumption drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,train
+SCN-Y053,M-103,2026-01-28 05:01:00,2026-01-28 05:10:00,sensor_anomaly,vibration drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,train
+SCN-Y054,M-101,2026-05-27 22:13:00,2026-05-27 22:21:00,sensor_anomaly,rpm drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,train
+SCN-Y055,M-102,2026-08-07 03:40:00,2026-08-07 03:41:00,sensor_anomaly,temperature drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,train
+SCN-Y056,M-104,2026-05-26 16:56:00,2026-05-26 17:00:00,sensor_anomaly,vibration stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,train
+SCN-Y057,M-104,2026-07-15 14:02:00,2026-07-15 14:10:00,sensor_anomaly,vibration stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,train
+SCN-Y058,M-102,2026-07-24 07:40:00,2026-07-24 07:42:00,sensor_anomaly,vibration drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,train
+SCN-Y059,M-105,2026-03-08 15:24:00,2026-03-08 15:25:00,sensor_anomaly,power_consumption spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,train
+SCN-Y060,M-102,2026-05-18 10:14:00,2026-05-18 10:15:00,sensor_anomaly,pressure spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,train
+SCN-Y061,M-103,2026-01-13 07:30:00,2026-01-13 07:31:00,sensor_anomaly,vibration spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,train
+SCN-Y062,M-102,2026-03-23 03:56:00,2026-03-23 04:03:00,sensor_anomaly,temperature stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,train
+SCN-Y063,M-103,2026-05-17 20:20:00,2026-05-17 20:20:00,sensor_anomaly,power_consumption spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,train
+SCN-Y064,M-104,2026-07-03 06:15:00,2026-07-03 06:23:00,sensor_anomaly,vibration drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,train
+SCN-Y065,M-103,2026-02-23 10:40:00,2026-02-23 10:40:00,sensor_anomaly,rpm drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,train
+SCN-Y066,M-102,2026-08-02 14:26:00,2026-08-02 14:34:00,sensor_anomaly,pressure stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,train
+SCN-Y067,M-103,2026-02-09 03:28:00,2026-02-09 03:35:00,sensor_anomaly,vibration drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,train
+SCN-Y068,M-101,2026-03-16 07:05:00,2026-03-16 07:07:00,sensor_anomaly,vibration drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,train
+SCN-Y069,M-103,2026-04-25 01:32:00,2026-04-25 01:32:00,sensor_anomaly,vibration spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,train
+SCN-Y070,M-104,2026-03-14 21:10:00,2026-03-14 21:11:00,sensor_anomaly,pressure drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,train
+SCN-Y071,M-102,2026-02-28 20:56:00,2026-02-28 21:04:00,sensor_anomaly,vibration drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,train
+SCN-Y072,M-105,2026-04-01 10:34:00,2026-04-01 10:34:00,sensor_anomaly,pressure spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,train
+SCN-Y073,M-101,2026-02-13 21:51:00,2026-02-13 21:57:00,sensor_anomaly,pressure drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,train
+SCN-Y074,M-104,2026-03-07 19:13:00,2026-03-07 19:14:00,sensor_anomaly,rpm drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,train
+SCN-Y075,M-102,2026-07-04 22:04:00,2026-07-04 22:10:00,sensor_anomaly,temperature drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,train
+SCN-Y076,M-103,2026-05-30 01:24:00,2026-05-30 01:26:00,sensor_anomaly,pressure spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,train
+SCN-Y077,M-105,2026-05-18 21:03:00,2026-05-18 21:08:00,sensor_anomaly,vibration stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,train
+SCN-Y078,M-104,2026-06-07 08:44:00,2026-06-07 08:46:00,sensor_anomaly,vibration spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,train
+SCN-Y079,M-105,2026-08-20 20:46:00,2026-08-20 20:52:00,sensor_anomaly,pressure stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,train
+SCN-Y080,M-104,2026-08-18 03:18:00,2026-08-18 03:20:00,sensor_anomaly,vibration drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,train
+SCN-Y081,M-101,2026-03-05 17:53:00,2026-03-05 17:57:00,sensor_anomaly,temperature stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,train
+SCN-Y082,M-105,2026-06-16 07:08:00,2026-06-16 07:08:00,sensor_anomaly,temperature spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,train
+SCN-Y083,M-103,2026-02-16 16:33:00,2026-02-16 16:35:00,sensor_anomaly,power_consumption drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,train
+SCN-Y084,M-105,2026-07-02 21:17:00,2026-07-02 21:25:00,sensor_anomaly,temperature drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,train
+SCN-Y085,M-104,2026-05-08 21:48:00,2026-05-08 21:52:00,sensor_anomaly,rpm drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,train
+SCN-Y086,M-104,2026-07-30 21:40:00,2026-07-30 21:49:00,sensor_anomaly,vibration drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,train
+SCN-Y087,M-104,2026-04-06 01:15:00,2026-04-06 01:17:00,sensor_anomaly,power_consumption spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,train
+SCN-Y088,M-101,2026-05-01 01:54:00,2026-05-01 01:54:00,sensor_anomaly,temperature drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,train
+SCN-Y089,M-103,2026-04-22 14:54:00,2026-04-22 14:59:00,sensor_anomaly,power_consumption stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,train
+SCN-Y090,M-101,2026-07-22 08:46:00,2026-07-22 08:53:00,sensor_anomaly,vibration stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,train
+SCN-Y091,M-102,2026-08-02 05:43:00,2026-08-02 05:52:00,sensor_anomaly,rpm stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,train
+SCN-Y092,M-101,2026-04-21 04:09:00,2026-04-21 04:16:00,sensor_anomaly,rpm stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,train
+SCN-Y093,M-101,2026-04-20 16:05:00,2026-04-20 16:05:00,sensor_anomaly,power_consumption spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,train
+SCN-Y094,M-102,2026-04-13 06:51:00,2026-04-13 06:51:00,sensor_anomaly,temperature spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,train
+SCN-Y095,M-103,2026-04-07 13:57:00,2026-04-07 14:05:00,sensor_anomaly,temperature drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,train
+SCN-Y096,M-103,2026-05-05 06:32:00,2026-05-05 06:32:00,sensor_anomaly,temperature drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,train
+SCN-Y097,M-103,2026-06-12 19:06:00,2026-06-12 19:10:00,sensor_anomaly,rpm drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,train
+SCN-Y098,M-103,2026-08-24 10:17:00,2026-08-24 10:21:00,sensor_anomaly,rpm stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,train
+SCN-Y099,M-105,2026-06-20 11:57:00,2026-06-20 12:04:00,sensor_anomaly,power_consumption drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,train
+SCN-Y100,M-105,2026-01-28 05:35:00,2026-01-28 05:42:00,sensor_anomaly,rpm stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,train
+SCN-Y101,M-101,2026-07-16 05:49:00,2026-07-16 05:55:00,sensor_anomaly,vibration stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,train
+SCN-Y102,M-103,2026-02-13 06:47:00,2026-02-13 06:48:00,sensor_anomaly,pressure spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,train
+SCN-Y103,M-105,2026-07-28 08:25:00,2026-07-28 08:26:00,sensor_anomaly,temperature spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,train
+SCN-Y104,M-101,2026-08-16 13:41:00,2026-08-16 13:41:00,sensor_anomaly,pressure spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,train
+SCN-Y105,M-102,2026-07-20 19:20:00,2026-07-20 19:20:00,sensor_anomaly,rpm spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,train
+SCN-Y106,M-105,2026-08-10 20:24:00,2026-08-10 20:26:00,sensor_anomaly,temperature drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,train
+SCN-Y107,M-105,2026-07-23 06:47:00,2026-07-23 06:47:00,sensor_anomaly,rpm drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,train
+SCN-Y108,M-105,2026-04-27 21:31:00,2026-04-27 21:32:00,sensor_anomaly,rpm spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,train
+SCN-Y109,M-102,2026-06-17 12:41:00,2026-06-17 12:49:00,sensor_anomaly,pressure drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,train
+SCN-Y110,M-101,2026-04-07 02:22:00,2026-04-07 02:30:00,sensor_anomaly,power_consumption drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,train
+SCN-Y111,M-105,2026-03-09 13:40:00,2026-03-09 13:42:00,sensor_anomaly,pressure drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,train
+SCN-Y112,M-101,2026-07-30 04:02:00,2026-07-30 04:03:00,sensor_anomaly,pressure spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,train
+SCN-Y113,M-104,2026-06-17 04:59:00,2026-06-17 05:04:00,sensor_anomaly,pressure drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,train
+SCN-Y114,M-102,2026-08-09 13:20:00,2026-08-09 13:21:00,sensor_anomaly,rpm spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,train
+SCN-Y115,M-104,2026-06-21 22:02:00,2026-06-21 22:02:00,sensor_anomaly,power_consumption drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,train
+SCN-Y116,M-101,2026-04-24 00:54:00,2026-04-24 00:58:00,sensor_anomaly,temperature drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,train
+SCN-Y117,M-105,2026-06-19 13:59:00,2026-06-19 14:07:00,sensor_anomaly,power_consumption drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,train
+SCN-Y118,M-105,2026-06-03 08:34:00,2026-06-03 08:34:00,sensor_anomaly,power_consumption drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,train
+SCN-Y119,M-102,2026-07-27 05:29:00,2026-07-27 05:29:00,sensor_anomaly,power_consumption drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,train
+SCN-Y120,M-103,2026-07-23 01:51:00,2026-07-23 02:00:00,sensor_anomaly,rpm drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,train
+SCN-Y121,M-105,2026-05-03 00:04:00,2026-05-03 00:12:00,sensor_anomaly,power_consumption stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,train
+SCN-Y122,M-104,2026-02-13 01:20:00,2026-02-13 01:20:00,sensor_anomaly,vibration spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,train
+SCN-Y123,M-102,2026-04-20 16:39:00,2026-04-20 16:40:00,sensor_anomaly,vibration drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,train
+SCN-Y124,M-104,2026-03-03 16:22:00,2026-03-03 16:24:00,sensor_anomaly,rpm spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,train
+SCN-Y125,M-101,2026-07-26 20:03:00,2026-07-26 20:12:00,sensor_anomaly,power_consumption stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,train
+SCN-Y126,M-101,2026-07-28 21:53:00,2026-07-28 21:54:00,sensor_anomaly,temperature drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,train
+SCN-Y127,M-104,2026-04-20 16:39:00,2026-04-20 16:40:00,sensor_anomaly,vibration spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,train
+SCN-Y128,M-104,2026-02-05 03:40:00,2026-02-05 03:47:00,sensor_anomaly,power_consumption drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,train
+SCN-Y129,M-101,2026-08-10 13:54:00,2026-08-10 14:03:00,sensor_anomaly,power_consumption drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,train
+SCN-Y130,M-104,2026-08-06 03:49:00,2026-08-06 03:49:00,sensor_anomaly,power_consumption spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,train
+SCN-Y131,M-102,2026-07-08 16:58:00,2026-07-08 17:04:00,sensor_anomaly,vibration stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,train
+SCN-Y132,M-103,2026-06-30 13:44:00,2026-06-30 13:46:00,sensor_anomaly,vibration drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,train
+SCN-Y133,M-103,2026-06-17 21:32:00,2026-06-17 21:32:00,sensor_anomaly,rpm spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,train
+SCN-Y134,M-105,2026-06-03 20:42:00,2026-06-03 20:44:00,sensor_anomaly,pressure spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,train
+SCN-Y135,M-105,2026-03-07 03:26:00,2026-03-07 03:27:00,sensor_anomaly,temperature drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,train
+SCN-Y136,M-102,2026-04-10 13:49:00,2026-04-10 13:54:00,sensor_anomaly,temperature stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,train
+SCN-Y137,M-103,2026-04-11 00:40:00,2026-04-11 00:42:00,sensor_anomaly,vibration spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,train
+SCN-Y138,M-103,2026-02-07 04:42:00,2026-02-07 04:44:00,sensor_anomaly,power_consumption spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,train
+SCN-Y139,M-102,2026-02-18 23:16:00,2026-02-18 23:23:00,sensor_anomaly,vibration drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,train
+SCN-Y140,M-103,2026-02-28 14:56:00,2026-02-28 14:56:00,sensor_anomaly,vibration drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,train
+SCN-Y141,M-104,2026-02-03 13:25:00,2026-02-03 13:26:00,sensor_anomaly,temperature spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,train
+SCN-Y142,M-104,2026-02-13 15:51:00,2026-02-13 15:57:00,sensor_anomaly,power_consumption drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,train
+SCN-Y143,M-104,2026-05-05 01:54:00,2026-05-05 01:59:00,sensor_anomaly,rpm drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,train
+SCN-Y144,M-101,2026-02-04 15:05:00,2026-02-04 15:11:00,sensor_anomaly,temperature drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,train
+SCN-Y145,M-103,2026-06-03 17:12:00,2026-06-03 17:20:00,sensor_anomaly,vibration stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,train
+SCN-Y146,M-101,2026-05-12 10:50:00,2026-05-12 10:54:00,sensor_anomaly,power_consumption drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,train
+SCN-Y147,M-103,2026-08-11 08:09:00,2026-08-11 08:09:00,sensor_anomaly,pressure spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,train
+SCN-Y148,M-102,2026-04-09 13:49:00,2026-04-09 13:50:00,sensor_anomaly,temperature spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,train
+SCN-Y149,M-104,2026-01-28 12:16:00,2026-01-28 12:16:00,sensor_anomaly,temperature drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,train
+SCN-Y150,M-105,2026-03-26 05:48:00,2026-03-26 05:48:00,sensor_anomaly,pressure drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,train
+SCN-Y151,M-105,2026-02-22 10:08:00,2026-02-22 10:08:00,sensor_anomaly,temperature drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,train
+SCN-Y152,M-101,2026-07-31 18:31:00,2026-07-31 18:33:00,sensor_anomaly,temperature spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,train
+SCN-Y153,M-103,2026-06-05 04:52:00,2026-06-05 05:01:00,sensor_anomaly,pressure drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,train
+SCN-Y154,M-102,2026-08-05 05:01:00,2026-08-05 05:05:00,sensor_anomaly,rpm drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,train
+SCN-Y155,M-103,2026-08-01 12:57:00,2026-08-01 13:03:00,sensor_anomaly,power_consumption stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,train
+SCN-Y156,M-105,2026-04-22 19:08:00,2026-04-22 19:10:00,sensor_anomaly,rpm drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,train
+SCN-Y157,M-103,2026-05-04 21:10:00,2026-05-04 21:17:00,sensor_anomaly,vibration stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,train
+SCN-Y158,M-105,2026-04-25 15:47:00,2026-04-25 15:55:00,sensor_anomaly,temperature stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,train
+SCN-Y159,M-103,2026-01-24 03:53:00,2026-01-24 03:54:00,sensor_anomaly,temperature drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,train
+SCN-Y160,M-101,2026-02-25 17:29:00,2026-02-25 17:33:00,sensor_anomaly,power_consumption stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,train
+SCN-Y161,M-101,2026-08-22 16:17:00,2026-08-22 16:25:00,sensor_anomaly,power_consumption stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,train
+SCN-Y162,M-102,2026-08-15 05:17:00,2026-08-15 05:19:00,sensor_anomaly,temperature spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,train
+SCN-Y163,M-103,2026-02-02 16:31:00,2026-02-02 16:32:00,sensor_anomaly,rpm spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,train
+SCN-Y164,M-105,2026-08-26 00:42:00,2026-08-26 00:48:00,sensor_anomaly,pressure drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,train
+SCN-Y165,M-102,2026-07-07 19:31:00,2026-07-07 19:35:00,sensor_anomaly,power_consumption stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,train
+SCN-Y166,M-104,2026-08-28 03:16:00,2026-08-28 03:16:00,sensor_anomaly,vibration drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,train
+SCN-Y167,M-104,2026-08-12 04:30:00,2026-08-12 04:39:00,sensor_anomaly,pressure drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,train
+SCN-Y168,M-101,2026-04-29 09:28:00,2026-04-29 09:30:00,sensor_anomaly,rpm drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,train
+SCN-Y169,M-101,2026-07-10 01:30:00,2026-07-10 01:35:00,sensor_anomaly,temperature stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,train
+SCN-Y170,M-102,2026-05-31 02:26:00,2026-05-31 02:34:00,sensor_anomaly,rpm drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,train
+SCN-Y171,M-102,2026-07-01 21:59:00,2026-07-01 22:03:00,sensor_anomaly,rpm stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,train
+SCN-Y172,M-103,2026-05-19 15:18:00,2026-05-19 15:19:00,sensor_anomaly,power_consumption drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,train
+SCN-Y173,M-104,2026-07-08 13:31:00,2026-07-08 13:32:00,sensor_anomaly,rpm spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,train
+SCN-Y174,M-104,2026-04-27 03:11:00,2026-04-27 03:13:00,sensor_anomaly,rpm drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,train
+SCN-Y175,M-102,2026-05-24 21:13:00,2026-05-24 21:17:00,sensor_anomaly,power_consumption drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,train
+SCN-Y176,M-105,2026-06-25 15:51:00,2026-06-25 15:53:00,sensor_anomaly,vibration drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,train
+SCN-Y177,M-105,2026-04-20 21:34:00,2026-04-20 21:35:00,sensor_anomaly,vibration drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,train
+SCN-Y178,M-101,2026-02-17 16:34:00,2026-02-17 16:41:00,sensor_anomaly,pressure drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,train
+SCN-Y179,M-103,2026-08-07 03:05:00,2026-08-07 03:07:00,sensor_anomaly,pressure drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,train
+SCN-Y180,M-102,2026-02-28 08:10:00,2026-02-28 08:15:00,sensor_anomaly,temperature drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,train
+SCN-Y181,M-104,2026-02-14 05:18:00,2026-02-14 05:20:00,sensor_anomaly,pressure spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,train
+SCN-Y182,M-101,2026-05-24 04:45:00,2026-05-24 04:50:00,sensor_anomaly,vibration stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,train
+SCN-Y183,M-102,2026-04-15 14:19:00,2026-04-15 14:19:00,sensor_anomaly,rpm drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,train
+SCN-Y184,M-104,2026-04-07 07:32:00,2026-04-07 07:34:00,sensor_anomaly,temperature drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,train
+SCN-Y185,M-103,2026-02-19 00:46:00,2026-02-19 00:51:00,sensor_anomaly,rpm stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,train
+SCN-Y186,M-105,2026-01-29 10:32:00,2026-01-29 10:32:00,sensor_anomaly,power_consumption spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,train
+SCN-Y187,M-101,2026-06-17 16:05:00,2026-06-17 16:07:00,sensor_anomaly,rpm spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,train
+SCN-Y188,M-102,2026-04-04 17:23:00,2026-04-04 17:25:00,sensor_anomaly,power_consumption drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,train
+SCN-Y189,M-101,2026-04-22 14:13:00,2026-04-22 14:20:00,sensor_anomaly,vibration drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,train
+SCN-Y190,M-105,2026-05-15 11:12:00,2026-05-15 11:17:00,sensor_anomaly,pressure stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,train
+SCN-Y191,M-105,2026-04-28 22:09:00,2026-04-28 22:13:00,sensor_anomaly,vibration drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,train
+SCN-Y192,M-101,2026-01-12 00:15:00,2026-01-12 00:17:00,sensor_anomaly,power_consumption spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,train
+SCN-Y193,M-105,2026-07-22 00:19:00,2026-07-22 00:23:00,sensor_anomaly,temperature stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,train
+SCN-Y194,M-101,2026-07-23 22:31:00,2026-07-23 22:32:00,sensor_anomaly,vibration drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,train
+SCN-Y195,M-103,2026-07-07 13:32:00,2026-07-07 13:33:00,sensor_anomaly,vibration drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,train
+SCN-Y196,M-104,2026-03-08 02:18:00,2026-03-08 02:20:00,sensor_anomaly,temperature spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,train
+SCN-Y197,M-104,2026-02-20 01:50:00,2026-02-20 01:55:00,sensor_anomaly,rpm stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,train
+SCN-Y198,M-104,2026-02-26 06:58:00,2026-02-26 07:03:00,sensor_anomaly,power_consumption drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,train
+SCN-Y199,M-102,2026-08-18 11:11:00,2026-08-18 11:11:00,sensor_anomaly,pressure spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,train
+SCN-Y200,M-103,2026-01-31 04:26:00,2026-01-31 04:28:00,sensor_anomaly,rpm spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,train
+SCN-Y201,M-101,2026-07-21 18:57:00,2026-07-21 19:05:00,sensor_anomaly,pressure drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,train
+SCN-Y202,M-105,2026-07-29 12:28:00,2026-07-29 12:34:00,sensor_anomaly,power_consumption drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,train
+SCN-Y203,M-101,2026-03-24 10:56:00,2026-03-24 10:56:00,sensor_anomaly,temperature spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,train
+SCN-Y204,M-105,2026-08-02 05:23:00,2026-08-02 05:29:00,sensor_anomaly,power_consumption stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,train
+SCN-Y205,M-105,2026-02-21 06:01:00,2026-02-21 06:05:00,sensor_anomaly,pressure stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,train
+SCN-Y206,M-101,2026-05-05 18:31:00,2026-05-05 18:38:00,sensor_anomaly,pressure stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,train
+SCN-Y207,M-104,2026-06-06 13:05:00,2026-06-06 13:11:00,sensor_anomaly,rpm drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,train
+SCN-Y208,M-102,2026-06-26 17:16:00,2026-06-26 17:22:00,sensor_anomaly,temperature stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,train
+SCN-Y209,M-104,2026-06-05 04:07:00,2026-06-05 04:09:00,sensor_anomaly,power_consumption drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,train
+SCN-Y210,M-103,2026-01-31 23:31:00,2026-01-31 23:32:00,sensor_anomaly,power_consumption spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,train
+SCN-Y211,M-102,2026-02-24 03:24:00,2026-02-24 03:33:00,sensor_anomaly,rpm drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,train
+SCN-Y212,M-105,2026-06-25 06:37:00,2026-06-25 06:42:00,sensor_anomaly,rpm stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,train
+SCN-Y213,M-104,2026-04-01 19:06:00,2026-04-01 19:07:00,sensor_anomaly,vibration drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,train
+SCN-Y214,M-104,2026-01-15 04:35:00,2026-01-15 04:41:00,sensor_anomaly,power_consumption stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,train
+SCN-Y215,M-104,2026-03-10 16:14:00,2026-03-10 16:19:00,sensor_anomaly,pressure stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,train
+SCN-Y216,M-101,2026-04-24 12:38:00,2026-04-24 12:39:00,sensor_anomaly,rpm drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,train
+SCN-Y217,M-103,2026-06-05 23:50:00,2026-06-05 23:54:00,sensor_anomaly,pressure drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,train
+SCN-Y218,M-103,2026-05-28 22:08:00,2026-05-28 22:08:00,sensor_anomaly,pressure drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,train
+SCN-Y219,M-101,2026-07-01 13:19:00,2026-07-01 13:20:00,sensor_anomaly,power_consumption spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,train
+SCN-Y220,M-105,2026-01-17 22:29:00,2026-01-17 22:34:00,sensor_anomaly,pressure drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,train
+SCN-Y221,M-101,2026-06-03 15:27:00,2026-06-03 15:27:00,sensor_anomaly,vibration spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,train
+SCN-Y222,M-105,2026-07-22 11:12:00,2026-07-22 11:14:00,sensor_anomaly,temperature spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,train
+SCN-Y223,M-102,2026-03-02 12:45:00,2026-03-02 12:45:00,sensor_anomaly,power_consumption spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,train
+SCN-Y224,M-102,2026-05-13 21:43:00,2026-05-13 21:49:00,sensor_anomaly,vibration drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,train
+SCN-Y225,M-105,2026-06-06 05:45:00,2026-06-06 05:45:00,sensor_anomaly,rpm spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,train
+SCN-Y226,M-101,2026-04-23 12:34:00,2026-04-23 12:40:00,sensor_anomaly,temperature stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,train
+SCN-Y227,M-105,2026-04-23 17:26:00,2026-04-23 17:27:00,sensor_anomaly,pressure spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,train
+SCN-Y228,M-104,2026-01-28 22:05:00,2026-01-28 22:09:00,sensor_anomaly,pressure drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,train
+SCN-Y229,M-101,2026-06-12 11:28:00,2026-06-12 11:29:00,sensor_anomaly,temperature spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,train
+SCN-Y230,M-105,2026-05-13 01:50:00,2026-05-13 01:55:00,sensor_anomaly,vibration drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,train
+SCN-Y231,M-105,2026-05-08 10:27:00,2026-05-08 10:36:00,sensor_anomaly,temperature stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,train
+SCN-Y232,M-102,2026-01-26 04:13:00,2026-01-26 04:20:00,sensor_anomaly,vibration stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,train
+SCN-Y233,M-103,2026-07-06 19:16:00,2026-07-06 19:22:00,sensor_anomaly,power_consumption drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,train
+SCN-Y234,M-104,2026-06-28 08:56:00,2026-06-28 09:05:00,sensor_anomaly,vibration stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,train
+SCN-Y235,M-103,2026-01-15 16:54:00,2026-01-15 16:56:00,sensor_anomaly,temperature drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,train
+SCN-Y236,M-101,2026-07-11 22:20:00,2026-07-11 22:20:00,sensor_anomaly,vibration drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,train
+SCN-Y237,M-101,2026-01-27 03:03:00,2026-01-27 03:03:00,sensor_anomaly,rpm drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,train
+SCN-Y238,M-105,2026-03-24 10:33:00,2026-03-24 10:42:00,sensor_anomaly,temperature drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,train
+SCN-Y239,M-105,2026-06-30 08:36:00,2026-06-30 08:43:00,sensor_anomaly,rpm drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,train
+SCN-Y240,M-101,2026-04-08 18:48:00,2026-04-08 18:50:00,sensor_anomaly,pressure spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,train
+SCN-Y241,M-105,2026-03-19 01:17:00,2026-03-19 01:26:00,sensor_anomaly,vibration stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,train
+SCN-Y242,M-102,2026-05-01 04:05:00,2026-05-01 04:07:00,sensor_anomaly,pressure drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,train
+SCN-Y243,M-102,2026-03-25 19:44:00,2026-03-25 19:46:00,sensor_anomaly,pressure spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,train
+SCN-Y244,M-101,2026-05-27 15:25:00,2026-05-27 15:26:00,sensor_anomaly,power_consumption drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,train
+SCN-Y245,M-101,2026-02-08 07:40:00,2026-02-08 07:42:00,sensor_anomaly,vibration spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,train
+SCN-Y246,M-102,2026-06-29 11:38:00,2026-06-29 11:38:00,sensor_anomaly,vibration drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,train
+SCN-Y247,M-104,2026-07-25 17:41:00,2026-07-25 17:48:00,sensor_anomaly,temperature drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,train
+SCN-Y248,M-102,2026-07-11 17:50:00,2026-07-11 17:57:00,sensor_anomaly,pressure drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,train
+SCN-Y249,M-104,2026-05-06 01:38:00,2026-05-06 01:40:00,sensor_anomaly,pressure drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,train
+SCN-Y250,M-105,2026-08-29 06:52:00,2026-08-29 06:56:00,sensor_anomaly,pressure drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,train
+SCN-Y251,M-103,2026-04-13 21:48:00,2026-04-13 21:56:00,sensor_anomaly,pressure drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,train
+SCN-Y252,M-104,2026-06-25 04:57:00,2026-06-25 05:05:00,sensor_anomaly,temperature drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,train
+SCN-Y253,M-102,2026-01-22 18:20:00,2026-01-22 18:21:00,sensor_anomaly,rpm drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,train
+SCN-Y254,M-102,2026-01-12 18:28:00,2026-01-12 18:29:00,sensor_anomaly,power_consumption drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,train
+SCN-Y255,M-103,2026-03-16 07:02:00,2026-03-16 07:03:00,sensor_anomaly,rpm drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,train
+SCN-Y256,M-104,2026-04-06 17:03:00,2026-04-06 17:03:00,sensor_anomaly,rpm spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,train
+SCN-Y257,M-104,2026-07-16 06:59:00,2026-07-16 07:00:00,sensor_anomaly,pressure spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,train
+SCN-Y258,M-104,2026-06-09 14:24:00,2026-06-09 14:24:00,sensor_anomaly,temperature spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,train
+SCN-Y259,M-101,2026-05-14 12:10:00,2026-05-14 12:12:00,sensor_anomaly,temperature drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,train
+SCN-Y260,M-101,2026-05-21 02:05:00,2026-05-21 02:10:00,sensor_anomaly,temperature drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,train
+SCN-Y261,M-102,2026-08-07 11:05:00,2026-08-07 11:07:00,sensor_anomaly,power_consumption spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,train
+SCN-Y262,M-104,2026-02-25 10:05:00,2026-02-25 10:14:00,sensor_anomaly,pressure stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,train
+SCN-Y263,M-103,2026-08-16 09:50:00,2026-08-16 09:59:00,sensor_anomaly,rpm stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,train
+SCN-Y264,M-101,2026-08-13 21:02:00,2026-08-13 21:02:00,sensor_anomaly,pressure drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,train
+SCN-Y265,M-102,2026-04-16 18:20:00,2026-04-16 18:22:00,sensor_anomaly,temperature drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,train
+SCN-Y266,M-103,2026-03-13 16:59:00,2026-03-13 17:07:00,sensor_anomaly,pressure stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,train
+SCN-Y267,M-104,2026-07-04 22:00:00,2026-07-04 22:01:00,sensor_anomaly,power_consumption spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,train
+SCN-Y268,M-102,2026-03-31 18:17:00,2026-03-31 18:22:00,sensor_anomaly,power_consumption drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,train
+SCN-Y269,M-103,2026-06-25 16:53:00,2026-06-25 17:01:00,sensor_anomaly,vibration drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,train
+SCN-Y270,M-103,2026-04-29 17:45:00,2026-04-29 17:52:00,sensor_anomaly,temperature drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,train
+SCN-Y271,M-103,2026-07-15 02:09:00,2026-07-15 02:11:00,sensor_anomaly,temperature spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,train
+SCN-Y272,M-102,2026-05-26 14:54:00,2026-05-26 14:59:00,sensor_anomaly,power_consumption stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,train
+SCN-Y273,M-102,2026-07-09 14:33:00,2026-07-09 14:41:00,sensor_anomaly,vibration stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,train
+SCN-Y274,M-102,2026-07-16 18:22:00,2026-07-16 18:29:00,sensor_anomaly,temperature drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,train
+SCN-Y275,M-105,2026-05-05 23:20:00,2026-05-05 23:29:00,sensor_anomaly,vibration drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,train
+SCN-Y276,M-103,2026-02-26 04:08:00,2026-02-26 04:12:00,sensor_anomaly,power_consumption drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,train
+SCN-Y277,M-104,2026-07-06 17:13:00,2026-07-06 17:22:00,sensor_anomaly,temperature drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,train
+SCN-Y278,M-102,2026-03-27 10:05:00,2026-03-27 10:14:00,sensor_anomaly,power_consumption drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,train
+SCN-Y279,M-105,2026-06-29 14:05:00,2026-06-29 14:06:00,sensor_anomaly,pressure drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,train
+SCN-Y280,M-104,2026-02-23 05:09:00,2026-02-23 05:16:00,sensor_anomaly,power_consumption stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,train
+SCN-Y281,M-101,2026-07-26 11:45:00,2026-07-26 11:54:00,sensor_anomaly,rpm stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,train
+SCN-Y282,M-103,2026-06-27 10:10:00,2026-06-27 10:16:00,sensor_anomaly,temperature stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,train
+SCN-Y283,M-103,2026-04-01 18:56:00,2026-04-01 19:04:00,sensor_anomaly,temperature stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,train
+SCN-Y284,M-101,2026-03-14 07:12:00,2026-03-14 07:13:00,sensor_anomaly,vibration spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,train
+SCN-Y285,M-104,2026-06-18 08:26:00,2026-06-18 08:26:00,sensor_anomaly,pressure spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,train
+SCN-Y286,M-103,2026-01-29 08:43:00,2026-01-29 08:43:00,sensor_anomaly,temperature spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,train
+SCN-Y287,M-103,2026-06-10 00:29:00,2026-06-10 00:29:00,sensor_anomaly,power_consumption drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,train
+SCN-Y288,M-103,2026-06-10 09:10:00,2026-06-10 09:12:00,sensor_anomaly,rpm drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,train
+SCN-Y289,M-105,2026-01-24 18:08:00,2026-01-24 18:13:00,sensor_anomaly,rpm drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,train
+SCN-Y290,M-105,2026-08-18 13:49:00,2026-08-18 13:53:00,sensor_anomaly,vibration stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,train
+SCN-Y291,M-105,2026-06-14 06:31:00,2026-06-14 06:35:00,sensor_anomaly,temperature drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,train
+SCN-Y292,M-101,2026-03-18 00:58:00,2026-03-18 00:59:00,sensor_anomaly,rpm spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,train
+SCN-Y293,M-101,2026-04-02 02:06:00,2026-04-02 02:06:00,sensor_anomaly,power_consumption drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,train
+SCN-Y294,M-102,2026-06-24 13:25:00,2026-06-24 13:32:00,sensor_anomaly,pressure stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,train
+SCN-Y295,M-105,2026-06-24 03:56:00,2026-06-24 03:56:00,sensor_anomaly,vibration drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,train
+SCN-Y296,M-102,2026-03-28 22:46:00,2026-03-28 22:55:00,sensor_anomaly,pressure stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,train
+SCN-Y297,M-104,2026-06-23 15:51:00,2026-06-23 15:52:00,sensor_anomaly,power_consumption drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,train
+SCN-Y298,M-103,2026-02-23 02:48:00,2026-02-23 02:57:00,sensor_anomaly,vibration stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,train
+SCN-Y299,M-103,2026-05-15 16:15:00,2026-05-15 16:24:00,sensor_anomaly,pressure stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,train
+SCN-Y300,M-102,2026-08-23 18:13:00,2026-08-23 18:13:00,sensor_anomaly,pressure drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,train
+SCN-Y301,M-104,2026-07-05 04:32:00,2026-07-05 04:36:00,sensor_anomaly,rpm stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,train
+SCN-Y302,M-101,2026-04-13 07:47:00,2026-04-13 07:55:00,sensor_anomaly,rpm stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,train
+SCN-Y303,M-102,2026-04-24 13:19:00,2026-04-24 13:20:00,sensor_anomaly,power_consumption spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,train
+SCN-Y304,M-101,2026-06-23 17:15:00,2026-06-23 17:15:00,sensor_anomaly,rpm spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,train
+SCN-Y305,M-105,2026-07-12 22:35:00,2026-07-12 22:35:00,sensor_anomaly,vibration spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,train
+SCN-Y306,M-104,2026-04-09 17:12:00,2026-04-09 17:20:00,sensor_anomaly,temperature stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,train
+SCN-Y307,M-102,2026-06-03 07:42:00,2026-06-03 07:42:00,sensor_anomaly,temperature drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,train
+SCN-Y308,M-102,2026-05-08 13:14:00,2026-05-08 13:14:00,sensor_anomaly,vibration spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,train
+SCN-Y309,M-104,2026-03-25 06:46:00,2026-03-25 06:50:00,sensor_anomaly,vibration drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,train
+SCN-Y310,M-105,2026-03-30 08:01:00,2026-03-30 08:07:00,sensor_anomaly,rpm stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,train
+SCN-Y311,M-104,2026-07-13 10:43:00,2026-07-13 10:47:00,sensor_anomaly,pressure stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,train
+SCN-Y312,M-104,2026-02-05 10:52:00,2026-02-05 10:58:00,sensor_anomaly,rpm stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,train
+SCN-Y313,M-101,2026-05-22 22:02:00,2026-05-22 22:03:00,sensor_anomaly,pressure drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,train
+SCN-Y314,M-101,2026-01-17 10:15:00,2026-01-17 10:22:00,sensor_anomaly,rpm drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,train
+SCN-Y315,M-104,2026-06-16 07:36:00,2026-06-16 07:36:00,sensor_anomaly,pressure drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,train
+SCN-Y316,M-102,2026-06-06 04:16:00,2026-06-06 04:18:00,sensor_anomaly,rpm spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,train
+SCN-Y317,M-103,2026-04-13 06:39:00,2026-04-13 06:46:00,sensor_anomaly,temperature stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,train
+SCN-Y318,M-103,2026-07-04 21:14:00,2026-07-04 21:20:00,sensor_anomaly,temperature drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,train
+SCN-Y319,M-102,2026-03-16 03:57:00,2026-03-16 04:53:00,warning_only,Warning without injected sensor failure,low,Synthetic warning with no sensor values injected.,warning_only,,train
+SCN-Y320,M-104,2026-01-22 15:39:00,2026-01-22 15:56:00,warning_only,Warning without injected sensor failure,low,Synthetic warning with no sensor values injected.,warning_only,,train
+SCN-Y321,M-104,2026-01-17 01:57:00,2026-01-17 02:13:00,warning_only,Warning without injected sensor failure,low,Synthetic warning with no sensor values injected.,warning_only,,train
+SCN-Y322,M-102,2026-05-12 12:19:00,2026-05-12 12:47:00,warning_only,Warning without injected sensor failure,low,Synthetic warning with no sensor values injected.,warning_only,,train
+SCN-Y323,M-104,2026-03-14 04:42:00,2026-03-14 05:05:00,warning_only,Warning without injected sensor failure,low,Synthetic warning with no sensor values injected.,warning_only,,train
+SCN-Y324,M-105,2026-05-07 10:58:00,2026-05-07 11:21:00,warning_only,Warning without injected sensor failure,low,Synthetic warning with no sensor values injected.,warning_only,,train
+SCN-Y325,M-105,2026-03-01 08:47:00,2026-03-01 09:08:00,warning_only,Warning without injected sensor failure,low,Synthetic warning with no sensor values injected.,warning_only,,train
+SCN-Y326,M-101,2026-02-13 10:34:00,2026-02-13 11:20:00,warning_only,Warning without injected sensor failure,low,Synthetic warning with no sensor values injected.,warning_only,,train
+SCN-Y327,M-104,2026-02-07 17:46:00,2026-02-07 18:17:00,warning_only,Warning without injected sensor failure,low,Synthetic warning with no sensor values injected.,warning_only,,train
+SCN-Y328,M-102,2026-09-27 13:43:00,2026-09-27 19:10:00,gradual_fault,Bearing wear,medium,Synthetic gradual bearing degradation.,bearing_wear,,validation
+SCN-Y329,M-101,2026-09-30 09:25:00,2026-09-30 11:19:00,gradual_fault,Bearing wear,critical,Synthetic gradual bearing degradation.,bearing_wear,,validation
+SCN-Y330,M-101,2026-10-12 01:17:00,2026-10-12 04:50:00,gradual_fault,Motor overheating,high,Synthetic gradual temperature increase and speed reduction.,overheating,,validation
+SCN-Y331,M-103,2026-10-10 00:47:00,2026-10-10 02:09:00,intermittent_fault,Intermittent vibration,critical,Synthetic intermittent vibration.,intermittent_vibration,,validation
+SCN-Y332,M-105,2026-10-25 10:04:00,2026-10-25 10:48:00,intermittent_fault,Rotational speed instability,high,Synthetic rotational speed instability.,rpm_instability,,validation
+SCN-Y333,M-104,2026-09-23 22:06:00,2026-09-23 22:06:00,sensor_anomaly,rpm spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,validation
+SCN-Y334,M-104,2026-10-30 10:06:00,2026-10-30 10:07:00,sensor_anomaly,pressure drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,validation
+SCN-Y335,M-103,2026-10-01 06:42:00,2026-10-01 06:42:00,sensor_anomaly,vibration drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,validation
+SCN-Y336,M-101,2026-09-28 12:58:00,2026-09-28 12:58:00,sensor_anomaly,power_consumption drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,validation
+SCN-Y337,M-101,2026-10-27 15:50:00,2026-10-27 15:55:00,sensor_anomaly,rpm drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,validation
+SCN-Y338,M-101,2026-09-24 22:06:00,2026-09-24 22:12:00,sensor_anomaly,pressure stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,validation
+SCN-Y339,M-102,2026-10-10 18:12:00,2026-10-10 18:19:00,sensor_anomaly,rpm stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,validation
+SCN-Y340,M-105,2026-10-20 16:55:00,2026-10-20 16:59:00,sensor_anomaly,pressure drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,validation
+SCN-Y341,M-104,2026-10-22 12:29:00,2026-10-22 12:38:00,sensor_anomaly,vibration drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,validation
+SCN-Y342,M-103,2026-10-25 12:10:00,2026-10-25 12:12:00,sensor_anomaly,pressure spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,validation
+SCN-Y343,M-102,2026-10-09 12:06:00,2026-10-09 12:07:00,sensor_anomaly,vibration spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,validation
+SCN-Y344,M-103,2026-09-21 09:35:00,2026-09-21 09:43:00,sensor_anomaly,power_consumption stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,validation
+SCN-Y345,M-102,2026-10-16 09:59:00,2026-10-16 10:05:00,sensor_anomaly,power_consumption drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,validation
+SCN-Y346,M-105,2026-10-22 07:11:00,2026-10-22 07:16:00,sensor_anomaly,vibration stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,validation
+SCN-Y347,M-103,2026-09-26 07:54:00,2026-09-26 08:02:00,sensor_anomaly,temperature drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,validation
+SCN-Y348,M-101,2026-10-25 06:09:00,2026-10-25 06:09:00,sensor_anomaly,temperature spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,validation
+SCN-Y349,M-105,2026-10-27 23:50:00,2026-10-27 23:51:00,sensor_anomaly,power_consumption spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,validation
+SCN-Y350,M-104,2026-10-15 06:11:00,2026-10-15 06:15:00,sensor_anomaly,temperature stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,validation
+SCN-Y351,M-105,2026-10-24 01:01:00,2026-10-24 01:03:00,sensor_anomaly,rpm drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,validation
+SCN-Y352,M-102,2026-09-25 23:30:00,2026-09-25 23:32:00,sensor_anomaly,temperature drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,validation
+SCN-Y353,M-105,2026-10-04 20:50:00,2026-10-04 21:43:00,warning_only,Warning without injected sensor failure,low,Synthetic warning with no sensor values injected.,warning_only,,validation
+SCN-Y354,M-102,2026-09-22 09:37:00,2026-09-22 10:33:00,warning_only,Warning without injected sensor failure,low,Synthetic warning with no sensor values injected.,warning_only,,validation
+SCN-Y355,M-102,2026-10-01 06:23:00,2026-10-01 07:21:00,warning_only,Warning without injected sensor failure,low,Synthetic warning with no sensor values injected.,warning_only,,validation
+SCN-Y356,M-102,2026-11-26 17:33:00,2026-11-26 19:36:00,gradual_fault,Bearing wear,critical,Synthetic gradual bearing degradation.,bearing_wear,,test
+SCN-Y357,M-105,2026-12-01 22:55:00,2026-12-02 00:56:00,gradual_fault,Actuator wear,critical,Synthetic actuator degradation with irregular speed.,actuator_wear,,test
+SCN-Y358,M-105,2026-11-24 03:08:00,2026-11-24 07:17:00,gradual_fault,Bearing wear,medium,Synthetic gradual bearing degradation.,bearing_wear,,test
+SCN-Y359,M-105,2026-12-10 17:45:00,2026-12-10 19:22:00,gradual_fault,Bearing wear,high,Synthetic gradual bearing degradation.,bearing_wear,,test
+SCN-Y360,M-102,2026-11-23 14:02:00,2026-11-23 17:07:00,gradual_fault,Motor overheating,critical,Synthetic gradual temperature increase and speed reduction.,overheating,,test
+SCN-Y361,M-105,2026-11-25 13:23:00,2026-11-25 15:41:00,intermittent_fault,Intermittent vibration,critical,Synthetic intermittent vibration.,intermittent_vibration,,test
+SCN-Y362,M-101,2026-11-19 11:49:00,2026-11-19 12:27:00,intermittent_fault,Rotational speed instability,medium,Synthetic rotational speed instability.,rpm_instability,,test
+SCN-Y363,M-105,2026-12-09 12:34:00,2026-12-09 12:39:00,sensor_anomaly,vibration stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,vibration,test
+SCN-Y364,M-103,2026-11-24 04:15:00,2026-11-24 04:15:00,sensor_anomaly,vibration drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,vibration,test
+SCN-Y365,M-102,2026-12-14 21:35:00,2026-12-14 21:42:00,sensor_anomaly,rpm stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,rpm,test
+SCN-Y366,M-103,2026-12-05 18:37:00,2026-12-05 18:45:00,sensor_anomaly,power_consumption stuck,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,power_consumption,test
+SCN-Y367,M-102,2026-11-24 11:33:00,2026-11-24 11:39:00,sensor_anomaly,power_consumption drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,power_consumption,test
+SCN-Y368,M-105,2026-11-21 10:01:00,2026-11-21 10:02:00,sensor_anomaly,power_consumption spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,power_consumption,test
+SCN-Y369,M-101,2026-12-08 09:59:00,2026-12-08 09:59:00,sensor_anomaly,power_consumption drop,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,power_consumption,test
+SCN-Y370,M-104,2026-12-01 21:08:00,2026-12-01 21:17:00,sensor_anomaly,vibration drift,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,vibration,test
+SCN-Y371,M-103,2026-12-05 01:18:00,2026-12-05 01:20:00,sensor_anomaly,pressure spike,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,pressure,test
+SCN-Y372,M-105,2026-12-20 02:40:00,2026-12-20 02:44:00,sensor_anomaly,pressure drift,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,pressure,test
+SCN-Y373,M-105,2026-11-17 18:16:00,2026-11-17 18:18:00,sensor_anomaly,rpm drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,rpm,test
+SCN-Y374,M-102,2026-11-29 23:18:00,2026-11-29 23:19:00,sensor_anomaly,vibration spike,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,vibration,test
+SCN-Y375,M-104,2026-12-12 04:48:00,2026-12-12 04:48:00,sensor_anomaly,rpm spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,rpm,test
+SCN-Y376,M-104,2026-11-30 12:32:00,2026-11-30 12:36:00,sensor_anomaly,temperature stuck,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,temperature,test
+SCN-Y377,M-101,2026-12-04 03:12:00,2026-12-04 03:18:00,sensor_anomaly,pressure stuck,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_stuck,pressure,test
+SCN-Y378,M-101,2026-12-19 04:42:00,2026-12-19 04:42:00,sensor_anomaly,temperature spike,low,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_spike,temperature,test
+SCN-Y379,M-102,2026-11-30 20:28:00,2026-11-30 20:30:00,sensor_anomaly,temperature drop,medium,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,temperature,test
+SCN-Y380,M-103,2026-11-17 11:47:00,2026-11-17 11:55:00,sensor_anomaly,temperature drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,temperature,test
+SCN-Y381,M-101,2026-11-21 22:35:00,2026-11-21 22:40:00,sensor_anomaly,rpm drift,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drift,rpm,test
+SCN-Y382,M-104,2026-11-23 07:26:00,2026-11-23 07:27:00,sensor_anomaly,pressure drop,high,Synthetic sensor anomaly without a confirmed mechanical fault.,sensor_drop,pressure,test
+SCN-Y383,M-104,2026-11-30 23:55:00,2026-12-01 00:34:00,warning_only,Warning without injected sensor failure,low,Synthetic warning with no sensor values injected.,warning_only,,test
+SCN-Y384,M-103,2026-12-10 07:20:00,2026-12-10 08:01:00,warning_only,Warning without injected sensor failure,low,Synthetic warning with no sensor values injected.,warning_only,,test
+SCN-Y385,M-105,2026-11-28 19:00:00,2026-11-28 19:20:00,warning_only,Warning without injected sensor failure,low,Synthetic warning with no sensor values injected.,warning_only,,test

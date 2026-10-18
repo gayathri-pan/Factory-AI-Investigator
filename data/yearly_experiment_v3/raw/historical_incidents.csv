@@ -1,0 +1,12 @@
+incident_id,machine_id,date,symptoms,root_cause,resolution,downtime_minutes
+INC-101,M-101,2026-04-12,Spindle temperature increase and high vibration,Spindle bearing wear,Spindle bearing replaced and machine recalibrated,95
+INC-102,M-101,2026-07-08,Unexpected increase in power consumption,Motor alignment issue,Motor alignment corrected,60
+INC-103,M-102,2026-05-20,High vibration and intermittent machine noise,Drive bearing degradation,Bearing replaced,120
+INC-104,M-102,2026-08-02,Hydraulic pressure fluctuation,Hydraulic fluid contamination,Hydraulic fluid replaced and system flushed,80
+INC-105,M-103,2026-06-17,Motor temperature increased and conveyor speed decreased,Motor cooling obstruction,Cooling vents cleaned,70
+INC-106,M-103,2026-08-14,Conveyor stopped unexpectedly,Drive motor overload,Drive motor inspected and overload condition cleared,55
+INC-107,M-104,2026-05-06,Hydraulic pressure below expected range,Hydraulic fluid leakage,Leak repaired and hydraulic fluid replenished,90
+INC-108,M-104,2026-08-11,"High temperature, increased vibration and reduced pressure",Cooling pump failure,Cooling pump replaced and system inspected,143
+INC-109,M-104,2026-03-22,Abnormal vibration during pressing cycle,Bearing assembly wear,Bearing assembly replaced,110
+INC-110,M-105,2026-06-30,Robot arm movement became irregular,Joint actuator wear,Joint actuator replaced,130
+INC-111,M-105,2026-08-25,Motor temperature increase,Motor cooling obstruction,Cooling path cleaned,75

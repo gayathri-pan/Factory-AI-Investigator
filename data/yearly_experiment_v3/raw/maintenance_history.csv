@@ -1,0 +1,17 @@
+maintenance_id,machine_id,date,component,maintenance_type,technician_notes,next_due_date
+MNT-001,M-101,2026-06-10,Spindle,Inspection,Spindle inspected; no abnormality recorded.,2026-12-10
+MNT-002,M-101,2026-07-20,Motor,Alignment Check,Motor alignment checked.,2027-01-20
+MNT-003,M-101,2026-08-15,Spindle Bearing,Inspection,Bearing inspected during scheduled maintenance.,2026-11-15
+MNT-004,M-102,2026-06-12,Drive Bearing,Inspection,Drive bearing inspected; no issue recorded.,2026-12-12
+MNT-005,M-102,2026-07-18,Drive Motor,Inspection,Motor inspection completed.,2027-01-18
+MNT-006,M-102,2026-08-21,Drive Bearing,Condition Check,No persistent vibration noted at inspection.,2026-11-21
+MNT-007,M-103,2026-06-17,Motor Cooling,Cleaning,Cooling vents cleaned during scheduled service.,2026-12-17
+MNT-008,M-103,2026-07-22,Conveyor Drive,Inspection,Conveyor drive inspected.,2027-01-22
+MNT-009,M-103,2026-08-19,Temperature Sensor,Calibration,Sensor calibration recorded as completed.,2026-11-19
+MNT-010,M-104,2026-06-10,Cooling Pump,Routine Inspection,Minor wear detected on cooling pump. Continue monitoring.,2026-09-20
+MNT-011,M-104,2026-07-15,Hydraulic System,Fluid Replacement,Hydraulic fluid replaced; pressure recorded within normal range.,2026-10-15
+MNT-012,M-104,2026-08-20,Bearing Assembly,Inspection,Bearing inspected; no abnormality recorded.,2026-11-20
+MNT-013,M-104,2026-09-01,Temperature Sensor,Calibration,Temperature sensor calibration recorded as completed.,2026-12-01
+MNT-014,M-105,2026-06-15,Joint Actuator,Inspection,Joint actuator inspected during scheduled service.,2026-12-15
+MNT-015,M-105,2026-07-25,Drive Motor,Inspection,Drive motor inspected.,2027-01-25
+MNT-016,M-105,2026-08-22,Robotic Arm,Calibration,Scheduled calibration completed.,2026-11-22

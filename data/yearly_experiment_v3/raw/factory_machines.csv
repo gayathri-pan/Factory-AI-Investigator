@@ -1,0 +1,6 @@
+machine_id,machine_name,machine_type,location,installation_date,operating_hours,status
+M-101,CNC Machine,CNC,Plant-A,2022-01-15,5200,RUNNING
+M-102,Milling Machine,MILLING,Plant-A,2021-08-20,6100,RUNNING
+M-103,Conveyor System,CONVEYOR,Plant-A,2023-03-10,3800,RUNNING
+M-104,Hydraulic Press,HYDRAULIC_PRESS,Plant-A,2022-05-14,4821,RUNNING
+M-105,Robotic Arm,ROBOTIC_ARM,Plant-A,2023-09-05,2900,RUNNING
